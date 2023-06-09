@@ -27,7 +27,7 @@ export default defineConfig({
         exports: "named",
       },
     },
-    minify: false,
+    minify: "terser",
     lib: {
       entry: "./src/entry.ts",
       name: "HammerDesign",
